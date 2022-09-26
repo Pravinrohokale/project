@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    width: 100%;
+    background: rgba(0, 0,0, 0.5);
+    font-family: sans-serif;
+    
+
+}
+.content{ 
+    width: 1170px; ;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+     padding: 50px 20px;
+}
+nav>ul>li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+#body1{
+     background-image: url(image/wp3598832.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+    
+}
+.content1{
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+.left{
+    width: 400px;
+    height: 500px;
+    margin-left:  10px;
+    background: rgba(0, 0,0, 0.5);
+    display: flex;
+}
+.card{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.card img{
+    opacity: 0.8;
+    
+}
+ .card input{
+    margin: auto;
+    padding: 10px;
+ }
+ .card h3{
+    color: white;
+    position: relative;
+    bottom: px;
+    left: 20px;
+ }
+.card button{
+    padding: 10px 25px;
+    background-color: lightpink;
+}
+.right{
+    height: 480px;
+    width: 800px;
+    background: rgba(0, 0,0, 0.5);
+    color: white;
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+.right h2{
+    font-size: 40px;
+    position: relative;
+    top: 75px;
+    left: 100px; ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkorange;
+}
+.right p{
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+#body2{
+    height: 70px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    margin-top: 15px;
+    outline: 3px solid orange;
+}
+.center{
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+#body3{
+    height: 500px;
+    width: 1260px;
+    margin-top: 15px;
+    
+    outline: 3px solid orange;
+    
+    
+
+}
+.card1{
+    height: 480px;
+    width: 400px;
+    background-color: black;
+    margin-top: 10px;
+
+    margin-left: 15px;
+    outline: 3px solid red;
+    display: flex;
+    position: absolute;
+}
+.card2{
+    height: 480px;
+    width: 400px;
+    background-color: black;
+    
+    margin-left: 430px;
+    margin-top: 10px;
+    outline: 3px solid red;
+    display: flex;
+    position: absolute;
+}
+.card3{
+    height: 480px;
+    width: 400px;
+    background-color: black;
+    margin-left: 15px;
+    margin-top: 0px;
+    outline: 3px solid red;
+    
+    display: flex;
+    position: absolut;
+}
+#body4{
+    height: 50;
+    width: 1260;
+    outline: 3px solid orange;
+    margin-top: 13px;
+    background-color: black;
+}
+.box1{
+    text-align: center;
+    line-height: 20px;
+    color: white;
+    margin: auto;
+
+}
